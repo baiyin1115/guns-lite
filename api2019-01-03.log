@@ -1,0 +1,699 @@
+2019-1-3 17:47:59 [main] INFO [ApiApplication]:48 Starting ApiApplication on 3KPF56UDW19TCOQ with PID 7044 (D:\github\guns-lite\guns-api\target\classes started by Administrator in D:\github\guns-lite)
+2019-1-3 17:47:59 [main] DEBUG [ApiApplication]:51 Running with Spring Boot v1.5.1.RELEASE, Spring v4.3.6.RELEASE
+2019-1-3 17:47:59 [main] INFO [ApiApplication]:641 The following profiles are active: dev
+2019-1-3 17:47:59 [main] INFO [AnnotationConfigEmbeddedWebApplicationContext]:582 Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3c153a1: startup date [Thu Jan 03 17:47:59 CST 2019]; root of context hierarchy
+2019-1-3 17:48:00 [background-preinit] INFO [Version]:30 HV000001: Hibernate Validator 5.3.4.Final
+2019-1-3 17:48:01 [main] INFO [PostProcessorRegistrationDelegate$BeanPostProcessorChecker]:325 Bean 'org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration' of type [class org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-1-3 17:48:01 [main] INFO [PostProcessorRegistrationDelegate$BeanPostProcessorChecker]:325 Bean 'validator' of type [class org.springframework.validation.beanvalidation.LocalValidatorFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-1-3 17:48:02 [main] INFO [PostProcessorRegistrationDelegate$BeanPostProcessorChecker]:325 Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$28fb2878] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-1-3 17:48:02 [main] INFO [PostProcessorRegistrationDelegate$BeanPostProcessorChecker]:325 Bean 'org.springframework.cache.annotation.ProxyCachingConfiguration' of type [class org.springframework.cache.annotation.ProxyCachingConfiguration$$EnhancerBySpringCGLIB$$720d5e96] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-1-3 17:48:03 [main] INFO [TomcatEmbeddedServletContainer]:89 Tomcat initialized with port(s): 8082 (http)
+2019-1-3 17:48:03 [main] INFO [StandardService]:179 Starting service Tomcat
+2019-1-3 17:48:03 [main] INFO [StandardEngine]:179 Starting Servlet Engine: Apache Tomcat/8.5.11
+2019-1-3 17:48:03 [localhost-startStop-1] INFO [[/]]:179 Initializing Spring embedded WebApplicationContext
+2019-1-3 17:48:03 [localhost-startStop-1] INFO [ContextLoader]:276 Root WebApplicationContext: initialization completed in 3337 ms
+2019-1-3 17:48:03 [localhost-startStop-1] INFO [ServletRegistrationBean]:190 Mapping servlet: 'dispatcherServlet' to [/]
+2019-1-3 17:48:03 [localhost-startStop-1] INFO [FilterRegistrationBean]:258 Mapping filter: 'errorPageFilter' to: [/*]
+2019-1-3 17:48:03 [localhost-startStop-1] INFO [FilterRegistrationBean]:258 Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-1-3 17:48:03 [localhost-startStop-1] INFO [FilterRegistrationBean]:258 Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-1-3 17:48:03 [localhost-startStop-1] INFO [FilterRegistrationBean]:258 Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-1-3 17:48:03 [localhost-startStop-1] INFO [FilterRegistrationBean]:258 Mapping filter: 'requestContextFilter' to: [/*]
+2019-1-3 17:48:04 [main] INFO [LocalContainerEntityManagerFactoryBean]:349 Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-1-3 17:48:04 [main] INFO [LogHelper]:31 HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-1-3 17:48:04 [main] INFO [Version]:37 HHH000412: Hibernate Core {5.0.11.Final}
+2019-1-3 17:48:04 [main] INFO [Environment]:213 HHH000206: hibernate.properties not found
+2019-1-3 17:48:04 [main] INFO [Environment]:317 HHH000021: Bytecode provider name : javassist
+2019-1-3 17:48:04 [main] INFO [Version]:66 HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-1-3 17:48:05 [main] INFO [Dialect]:156 HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-1-3 17:48:05 [main] INFO [LocalContainerEntityManagerFactoryBean]:382 Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-1-3 17:48:06 [main] INFO [EhCacheManagerFactoryBean]:130 Initializing EhCache CacheManager
+2019-1-3 17:48:06 [main] WARN [CacheConfiguration]:841 Cache 'SESSION' is set to eternal but also has TTI/TTL set.  To avoid this warning, clean up the config removing conflicting values of eternal, TTI and TTL. Effective configuration for Cache 'SESSION' will be eternal='true', timeToIdleSeconds='0', timeToLiveSeconds='0'.
+2019-1-3 17:48:06 [main] WARN [CacheConfiguration]:841 Cache 'APPLICATION' is set to eternal but also has TTI/TTL set.  To avoid this warning, clean up the config removing conflicting values of eternal, TTI and TTL. Effective configuration for Cache 'APPLICATION' will be eternal='true', timeToIdleSeconds='0', timeToLiveSeconds='0'.
+2019-1-3 17:48:07 [main] INFO [StdSchedulerFactory]:1184 Using default implementation for ThreadExecutor
+2019-1-3 17:48:07 [main] INFO [SchedulerSignalerImpl]:61 Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2019-1-3 17:48:07 [main] INFO [QuartzScheduler]:240 Quartz Scheduler v.2.2.1 created.
+2019-1-3 17:48:07 [main] INFO [RAMJobStore]:155 RAMJobStore initialized.
+2019-1-3 17:48:07 [main] INFO [QuartzScheduler]:305 Scheduler meta-data: Quartz Scheduler (v2.2.1) 'scheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2019-1-3 17:48:07 [main] INFO [StdSchedulerFactory]:1339 Quartz scheduler 'scheduler' initialized from an externally provided properties instance.
+2019-1-3 17:48:07 [main] INFO [StdSchedulerFactory]:1343 Quartz scheduler version: 2.2.1
+2019-1-3 17:48:07 [main] INFO [QuartzScheduler]:2311 JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@175957b6
+2019-1-3 17:48:08 [main] INFO [RequestMappingHandlerMapping]:543 Mapped "{[/user/info],methods=[GET]}" onto public java.lang.Object cn.enilu.guns.api.controller.AccountController.info(javax.servlet.http.HttpServletRequest)
+2019-1-3 17:48:08 [main] INFO [RequestMappingHandlerMapping]:543 Mapped "{[/user/logout],methods=[POST]}" onto public java.lang.Object cn.enilu.guns.api.controller.AccountController.logout(javax.servlet.http.HttpServletRequest)
+2019-1-3 17:48:08 [main] INFO [RequestMappingHandlerMapping]:543 Mapped "{[/user/login],methods=[POST]}" onto public java.lang.Object cn.enilu.guns.api.controller.AccountController.login(java.lang.String,java.lang.String)
+2019-1-3 17:48:08 [main] INFO [RequestMappingHandlerMapping]:543 Mapped "{[/cfg],methods=[DELETE]}" onto public java.lang.Object cn.enilu.guns.api.controller.system.CfgController.remove(java.lang.Long)
+2019-1-3 17:48:08 [main] INFO [RequestMappingHandlerMapping]:543 Mapped "{[/cfg/list],methods=[GET]}" onto public java.lang.Object cn.enilu.guns.api.controller.system.CfgController.list(java.lang.String,java.lang.String)
+2019-1-3 17:48:08 [main] INFO [RequestMappingHandlerMapping]:543 Mapped "{[/cfg],methods=[POST]}" onto public java.lang.Object cn.enilu.guns.api.controller.system.CfgController.save(cn.enilu.guns.bean.entity.system.Cfg)
+2019-1-3 17:48:08 [main] INFO [RequestMappingHandlerMapping]:543 Mapped "{[/dept],methods=[DELETE]}" onto public java.lang.Object cn.enilu.guns.api.controller.system.DeptContoller.remove(java.lang.Integer)
+2019-1-3 17:48:08 [main] INFO [RequestMappingHandlerMapping]:543 Mapped "{[/dept/list],methods=[GET]}" onto public java.lang.Object cn.enilu.guns.api.controller.system.DeptContoller.list()
+2019-1-3 17:48:08 [main] INFO [RequestMappingHandlerMapping]:543 Mapped "{[/dept],methods=[POST]}" onto public java.lang.Object cn.enilu.guns.api.controller.system.DeptContoller.save(cn.enilu.guns.bean.entity.system.Dept)
+2019-1-3 17:48:08 [main] INFO [RequestMappingHandlerMapping]:543 Mapped "{[/dict],methods=[POST]}" onto public java.lang.Object cn.enilu.guns.api.controller.system.DictController.add(java.lang.String,java.lang.String)
+2019-1-3 17:48:08 [main] INFO [RequestMappingHandlerMapping]:543 Mapped "{[/dict],methods=[PUT]}" onto public java.lang.Object cn.enilu.guns.api.controller.system.DictController.update(java.lang.Integer,java.lang.String,java.lang.String)
+2019-1-3 17:48:08 [main] INFO [RequestMappingHandlerMapping]:543 Mapped "{[/dict],methods=[DELETE]}" onto public java.lang.Object cn.enilu.guns.api.controller.system.DictController.delete(java.lang.Integer)
+2019-1-3 17:48:08 [main] INFO [RequestMappingHandlerMapping]:543 Mapped "{[/dict/list],methods=[GET]}" onto public java.lang.Object cn.enilu.guns.api.controller.system.DictController.list(java.lang.String)
+2019-1-3 17:48:08 [main] INFO [RequestMappingHandlerMapping]:543 Mapped "{[/log/list]}" onto public java.lang.Object cn.enilu.guns.api.controller.system.LogController.list(java.lang.String,java.lang.String,java.lang.String,java.lang.Integer)
+2019-1-3 17:48:08 [main] INFO [RequestMappingHandlerMapping]:543 Mapped "{[/log],methods=[DELETE]}" onto public java.lang.Object cn.enilu.guns.api.controller.system.LogController.delLog()
+2019-1-3 17:48:08 [main] INFO [RequestMappingHandlerMapping]:543 Mapped "{[/loginLog/list],methods=[GET]}" onto public java.lang.Object cn.enilu.guns.api.controller.system.LoginLogController.list(java.lang.String,java.lang.String,java.lang.String)
+2019-1-3 17:48:08 [main] INFO [RequestMappingHandlerMapping]:543 Mapped "{[/loginLog],methods=[DELETE]}" onto public java.lang.Object cn.enilu.guns.api.controller.system.LoginLogController.delLog()
+2019-1-3 17:48:08 [main] INFO [RequestMappingHandlerMapping]:543 Mapped "{[/menu],methods=[DELETE]}" onto public java.lang.Object cn.enilu.guns.api.controller.system.MenuController.remove(java.lang.Long)
+2019-1-3 17:48:08 [main] INFO [RequestMappingHandlerMapping]:543 Mapped "{[/menu/list],methods=[GET]}" onto public java.lang.Object cn.enilu.guns.api.controller.system.MenuController.list()
+2019-1-3 17:48:08 [main] INFO [RequestMappingHandlerMapping]:543 Mapped "{[/menu],methods=[POST]}" onto public java.lang.Object cn.enilu.guns.api.controller.system.MenuController.save(cn.enilu.guns.bean.entity.system.Menu)
+2019-1-3 17:48:08 [main] INFO [RequestMappingHandlerMapping]:543 Mapped "{[/menu/menuTreeListByRoleId],methods=[GET]}" onto public java.lang.Object cn.enilu.guns.api.controller.system.MenuController.menuTreeListByRoleId(java.lang.Integer)
+2019-1-3 17:48:08 [main] INFO [RequestMappingHandlerMapping]:543 Mapped "{[/notice/list]}" onto public java.lang.Object cn.enilu.guns.api.controller.system.NoticeController.list(java.lang.String)
+2019-1-3 17:48:08 [main] INFO [RequestMappingHandlerMapping]:543 Mapped "{[/role],methods=[DELETE]}" onto public java.lang.Object cn.enilu.guns.api.controller.system.RoleController.remove(java.lang.Integer)
+2019-1-3 17:48:08 [main] INFO [RequestMappingHandlerMapping]:543 Mapped "{[/role/list],methods=[GET]}" onto public java.lang.Object cn.enilu.guns.api.controller.system.RoleController.list(java.lang.String)
+2019-1-3 17:48:08 [main] INFO [RequestMappingHandlerMapping]:543 Mapped "{[/role],methods=[POST]}" onto public java.lang.Object cn.enilu.guns.api.controller.system.RoleController.save(cn.enilu.guns.bean.entity.system.Role,org.springframework.validation.BindingResult)
+2019-1-3 17:48:08 [main] INFO [RequestMappingHandlerMapping]:543 Mapped "{[/role/savePermisson],methods=[POST]}" onto public java.lang.Object cn.enilu.guns.api.controller.system.RoleController.setAuthority(java.lang.Integer,java.lang.String)
+2019-1-3 17:48:08 [main] INFO [RequestMappingHandlerMapping]:543 Mapped "{[/task/disable/{id}],methods=[POST]}" onto public java.lang.Object cn.enilu.guns.api.controller.system.TaskController.disable(java.lang.Long)
+2019-1-3 17:48:08 [main] INFO [RequestMappingHandlerMapping]:543 Mapped "{[/task/enable/{id}],methods=[POST]}" onto public java.lang.Object cn.enilu.guns.api.controller.system.TaskController.enable(java.lang.Long)
+2019-1-3 17:48:08 [main] INFO [RequestMappingHandlerMapping]:543 Mapped "{[/task],methods=[POST]}" onto public java.lang.Object cn.enilu.guns.api.controller.system.TaskController.add(cn.enilu.guns.bean.entity.system.Task,javax.servlet.http.HttpServletRequest)
+2019-1-3 17:48:08 [main] INFO [RequestMappingHandlerMapping]:543 Mapped "{[/task],methods=[DELETE]}" onto public java.lang.Object cn.enilu.guns.api.controller.system.TaskController.delete(java.lang.Long)
+2019-1-3 17:48:08 [main] INFO [RequestMappingHandlerMapping]:543 Mapped "{[/task/list]}" onto public java.lang.Object cn.enilu.guns.api.controller.system.TaskController.list(java.lang.String)
+2019-1-3 17:48:08 [main] INFO [RequestMappingHandlerMapping]:543 Mapped "{[/task/logList]}" onto public java.lang.Object cn.enilu.guns.api.controller.system.TaskController.logList(java.lang.Long)
+2019-1-3 17:48:08 [main] INFO [RequestMappingHandlerMapping]:543 Mapped "{[/user],methods=[DELETE]}" onto public java.lang.Object cn.enilu.guns.api.controller.system.UserController.remove(java.lang.Integer)
+2019-1-3 17:48:08 [main] INFO [RequestMappingHandlerMapping]:543 Mapped "{[/user/list],methods=[GET]}" onto public java.lang.Object cn.enilu.guns.api.controller.system.UserController.list(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Integer)
+2019-1-3 17:48:08 [main] INFO [RequestMappingHandlerMapping]:543 Mapped "{[/user],methods=[POST]}" onto public java.lang.Object cn.enilu.guns.api.controller.system.UserController.save(cn.enilu.guns.bean.dto.UserDto,org.springframework.validation.BindingResult)
+2019-1-3 17:48:08 [main] INFO [RequestMappingHandlerMapping]:543 Mapped "{[/v2/api-docs],methods=[GET]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String)
+2019-1-3 17:48:08 [main] INFO [RequestMappingHandlerMapping]:543 Mapped "{[/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2019-1-3 17:48:08 [main] INFO [RequestMappingHandlerMapping]:543 Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2019-1-3 17:48:08 [main] INFO [RequestMappingHandlerMapping]:543 Mapped "{[/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2019-1-3 17:48:08 [main] INFO [RequestMappingHandlerMapping]:543 Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-1-3 17:48:08 [main] INFO [RequestMappingHandlerMapping]:543 Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-1-3 17:48:09 [main] INFO [RequestMappingHandlerAdapter]:534 Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3c153a1: startup date [Thu Jan 03 17:47:59 CST 2019]; root of context hierarchy
+2019-1-3 17:48:10 [main] INFO [SimpleUrlHandlerMapping]:354 Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-1-3 17:48:10 [main] INFO [SimpleUrlHandlerMapping]:354 Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-1-3 17:48:10 [main] INFO [SimpleUrlHandlerMapping]:354 Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-1-3 17:48:11 [main] INFO [AnnotationMBeanExporter]:431 Registering beans for JMX exposure on startup
+2019-1-3 17:48:11 [main] INFO [DefaultLifecycleProcessor]:341 Starting beans in phase 2147483647
+2019-1-3 17:48:11 [main] INFO [SchedulerFactoryBean]:647 Starting Quartz Scheduler now
+2019-1-3 17:48:11 [main] INFO [QuartzScheduler]:575 Scheduler scheduler_$_NON_CLUSTERED started.
+2019-1-3 17:48:11 [main] INFO [DocumentationPluginsBootstrapper]:80 Context refreshed
+2019-1-3 17:48:11 [main] INFO [DocumentationPluginsBootstrapper]:83 Found {0} custom documentation plugin(s)
+2019-1-3 17:48:11 [main] INFO [ApiListingReferenceScanner]:53 Scanning for api listing references
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was cfg-controller
+2019-1-3 17:48:11 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: list belongs to groups: [[ResourceGroup{groupName='cfg-controller', position=0, controller=cn.enilu.guns.api.controller.system.CfgController}]] 
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method remove was cfg-controller
+2019-1-3 17:48:11 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: remove belongs to groups: [[ResourceGroup{groupName='cfg-controller', position=0, controller=cn.enilu.guns.api.controller.system.CfgController}]] 
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method save was cfg-controller
+2019-1-3 17:48:11 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: save belongs to groups: [[ResourceGroup{groupName='cfg-controller', position=0, controller=cn.enilu.guns.api.controller.system.CfgController}]] 
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was dept-contoller
+2019-1-3 17:48:11 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: list belongs to groups: [[ResourceGroup{groupName='dept-contoller', position=0, controller=cn.enilu.guns.api.controller.system.DeptContoller}]] 
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method remove was dept-contoller
+2019-1-3 17:48:11 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: remove belongs to groups: [[ResourceGroup{groupName='dept-contoller', position=0, controller=cn.enilu.guns.api.controller.system.DeptContoller}]] 
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method save was dept-contoller
+2019-1-3 17:48:11 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: save belongs to groups: [[ResourceGroup{groupName='dept-contoller', position=0, controller=cn.enilu.guns.api.controller.system.DeptContoller}]] 
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was dict-controller
+2019-1-3 17:48:11 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: list belongs to groups: [[ResourceGroup{groupName='dict-controller', position=0, controller=cn.enilu.guns.api.controller.system.DictController}]] 
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method add was dict-controller
+2019-1-3 17:48:11 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: add belongs to groups: [[ResourceGroup{groupName='dict-controller', position=0, controller=cn.enilu.guns.api.controller.system.DictController}]] 
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method update was dict-controller
+2019-1-3 17:48:11 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: update belongs to groups: [[ResourceGroup{groupName='dict-controller', position=0, controller=cn.enilu.guns.api.controller.system.DictController}]] 
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method delete was dict-controller
+2019-1-3 17:48:11 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: delete belongs to groups: [[ResourceGroup{groupName='dict-controller', position=0, controller=cn.enilu.guns.api.controller.system.DictController}]] 
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was log-controller
+2019-1-3 17:48:11 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: list belongs to groups: [[ResourceGroup{groupName='log-controller', position=0, controller=cn.enilu.guns.api.controller.system.LogController}]] 
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method delLog was log-controller
+2019-1-3 17:48:11 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: delLog belongs to groups: [[ResourceGroup{groupName='log-controller', position=0, controller=cn.enilu.guns.api.controller.system.LogController}]] 
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was login-log-controller
+2019-1-3 17:48:11 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: list belongs to groups: [[ResourceGroup{groupName='login-log-controller', position=0, controller=cn.enilu.guns.api.controller.system.LoginLogController}]] 
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method delLog was login-log-controller
+2019-1-3 17:48:11 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: delLog belongs to groups: [[ResourceGroup{groupName='login-log-controller', position=0, controller=cn.enilu.guns.api.controller.system.LoginLogController}]] 
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was menu-controller
+2019-1-3 17:48:11 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: list belongs to groups: [[ResourceGroup{groupName='menu-controller', position=0, controller=cn.enilu.guns.api.controller.system.MenuController}]] 
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method menuTreeListByRoleId was menu-controller
+2019-1-3 17:48:11 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: menuTreeListByRoleId belongs to groups: [[ResourceGroup{groupName='menu-controller', position=0, controller=cn.enilu.guns.api.controller.system.MenuController}]] 
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method remove was menu-controller
+2019-1-3 17:48:11 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: remove belongs to groups: [[ResourceGroup{groupName='menu-controller', position=0, controller=cn.enilu.guns.api.controller.system.MenuController}]] 
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method save was menu-controller
+2019-1-3 17:48:11 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: save belongs to groups: [[ResourceGroup{groupName='menu-controller', position=0, controller=cn.enilu.guns.api.controller.system.MenuController}]] 
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was notice-controller
+2019-1-3 17:48:11 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: list belongs to groups: [[ResourceGroup{groupName='notice-controller', position=0, controller=cn.enilu.guns.api.controller.system.NoticeController}]] 
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was role-controller
+2019-1-3 17:48:11 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: list belongs to groups: [[ResourceGroup{groupName='role-controller', position=0, controller=cn.enilu.guns.api.controller.system.RoleController}]] 
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method setAuthority was role-controller
+2019-1-3 17:48:11 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: setAuthority belongs to groups: [[ResourceGroup{groupName='role-controller', position=0, controller=cn.enilu.guns.api.controller.system.RoleController}]] 
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method remove was role-controller
+2019-1-3 17:48:11 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: remove belongs to groups: [[ResourceGroup{groupName='role-controller', position=0, controller=cn.enilu.guns.api.controller.system.RoleController}]] 
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method save was role-controller
+2019-1-3 17:48:11 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: save belongs to groups: [[ResourceGroup{groupName='role-controller', position=0, controller=cn.enilu.guns.api.controller.system.RoleController}]] 
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method disable was task-controller
+2019-1-3 17:48:11 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: disable belongs to groups: [[ResourceGroup{groupName='task-controller', position=0, controller=cn.enilu.guns.api.controller.system.TaskController}]] 
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method enable was task-controller
+2019-1-3 17:48:11 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: enable belongs to groups: [[ResourceGroup{groupName='task-controller', position=0, controller=cn.enilu.guns.api.controller.system.TaskController}]] 
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was task-controller
+2019-1-3 17:48:11 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: list belongs to groups: [[ResourceGroup{groupName='task-controller', position=0, controller=cn.enilu.guns.api.controller.system.TaskController}]] 
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method logList was task-controller
+2019-1-3 17:48:11 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: logList belongs to groups: [[ResourceGroup{groupName='task-controller', position=0, controller=cn.enilu.guns.api.controller.system.TaskController}]] 
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method add was task-controller
+2019-1-3 17:48:11 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: add belongs to groups: [[ResourceGroup{groupName='task-controller', position=0, controller=cn.enilu.guns.api.controller.system.TaskController}]] 
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method delete was task-controller
+2019-1-3 17:48:11 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: delete belongs to groups: [[ResourceGroup{groupName='task-controller', position=0, controller=cn.enilu.guns.api.controller.system.TaskController}]] 
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method info was account-controller
+2019-1-3 17:48:11 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: info belongs to groups: [[ResourceGroup{groupName='account-controller', position=0, controller=cn.enilu.guns.api.controller.AccountController}]] 
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was user-controller
+2019-1-3 17:48:11 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: list belongs to groups: [[ResourceGroup{groupName='user-controller', position=0, controller=cn.enilu.guns.api.controller.system.UserController}]] 
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method login was account-controller
+2019-1-3 17:48:11 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: login belongs to groups: [[ResourceGroup{groupName='account-controller', position=0, controller=cn.enilu.guns.api.controller.AccountController}]] 
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method logout was account-controller
+2019-1-3 17:48:11 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: logout belongs to groups: [[ResourceGroup{groupName='account-controller', position=0, controller=cn.enilu.guns.api.controller.AccountController}]] 
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method remove was user-controller
+2019-1-3 17:48:11 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: remove belongs to groups: [[ResourceGroup{groupName='user-controller', position=0, controller=cn.enilu.guns.api.controller.system.UserController}]] 
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method save was user-controller
+2019-1-3 17:48:11 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: save belongs to groups: [[ResourceGroup{groupName='user-controller', position=0, controller=cn.enilu.guns.api.controller.system.UserController}]] 
+2019-1-3 17:48:11 [main] INFO [ApiListingReferenceScanner]:84 Created resource listing Path: /default/menu-controller Description: menu-controller Position: 0
+2019-1-3 17:48:11 [main] INFO [ApiListingReferenceScanner]:84 Created resource listing Path: /default/cfg-controller Description: cfg-controller Position: 0
+2019-1-3 17:48:11 [main] INFO [ApiListingReferenceScanner]:84 Created resource listing Path: /default/user-controller Description: user-controller Position: 0
+2019-1-3 17:48:11 [main] INFO [ApiListingReferenceScanner]:84 Created resource listing Path: /default/login-log-controller Description: login-log-controller Position: 0
+2019-1-3 17:48:11 [main] INFO [ApiListingReferenceScanner]:84 Created resource listing Path: /default/role-controller Description: role-controller Position: 0
+2019-1-3 17:48:11 [main] INFO [ApiListingReferenceScanner]:84 Created resource listing Path: /default/task-controller Description: task-controller Position: 0
+2019-1-3 17:48:11 [main] INFO [ApiListingReferenceScanner]:84 Created resource listing Path: /default/dict-controller Description: dict-controller Position: 0
+2019-1-3 17:48:11 [main] INFO [ApiListingReferenceScanner]:84 Created resource listing Path: /default/notice-controller Description: notice-controller Position: 0
+2019-1-3 17:48:11 [main] INFO [ApiListingReferenceScanner]:84 Created resource listing Path: /default/dept-contoller Description: dept-contoller Position: 0
+2019-1-3 17:48:11 [main] INFO [ApiListingReferenceScanner]:84 Created resource listing Path: /default/account-controller Description: account-controller Position: 0
+2019-1-3 17:48:11 [main] INFO [ApiListingReferenceScanner]:84 Created resource listing Path: /default/log-controller Description: log-controller Position: 0
+2019-1-3 17:48:11 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /user/info.cn.enilu.guns.api.controller.AccountController.info.DefaultGenericTypeNamingStrategy
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /user/info.cn.enilu.guns.api.controller.AccountController.info.DefaultGenericTypeNamingStrategy
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method info was account-controller
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method info was account-controller
+2019-1-3 17:48:11 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /user/login.cn.enilu.guns.api.controller.AccountController.login.DefaultGenericTypeNamingStrategy
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /user/login.cn.enilu.guns.api.controller.AccountController.login.DefaultGenericTypeNamingStrategy
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method login was account-controller
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method login was account-controller
+2019-1-3 17:48:11 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /user/logout.cn.enilu.guns.api.controller.AccountController.logout.DefaultGenericTypeNamingStrategy
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /user/logout.cn.enilu.guns.api.controller.AccountController.logout.DefaultGenericTypeNamingStrategy
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method logout was account-controller
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method logout was account-controller
+2019-1-3 17:48:11 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /cfg/list.cn.enilu.guns.api.controller.system.CfgController.list.DefaultGenericTypeNamingStrategy
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /cfg/list.cn.enilu.guns.api.controller.system.CfgController.list.DefaultGenericTypeNamingStrategy
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was cfg-controller
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was cfg-controller
+2019-1-3 17:48:11 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /cfg.cn.enilu.guns.api.controller.system.CfgController.remove.DefaultGenericTypeNamingStrategy
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /cfg.cn.enilu.guns.api.controller.system.CfgController.remove.DefaultGenericTypeNamingStrategy
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method remove was cfg-controller
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method remove was cfg-controller
+2019-1-3 17:48:11 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /cfg.cn.enilu.guns.api.controller.system.CfgController.save.DefaultGenericTypeNamingStrategy
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /cfg.cn.enilu.guns.api.controller.system.CfgController.save.DefaultGenericTypeNamingStrategy
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method save was cfg-controller
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method save was cfg-controller
+2019-1-3 17:48:11 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /dept/list.cn.enilu.guns.api.controller.system.DeptContoller.list.DefaultGenericTypeNamingStrategy
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /dept/list.cn.enilu.guns.api.controller.system.DeptContoller.list.DefaultGenericTypeNamingStrategy
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was dept-contoller
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was dept-contoller
+2019-1-3 17:48:11 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: listUsingGET_1
+2019-1-3 17:48:11 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /dept.cn.enilu.guns.api.controller.system.DeptContoller.remove.DefaultGenericTypeNamingStrategy
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /dept.cn.enilu.guns.api.controller.system.DeptContoller.remove.DefaultGenericTypeNamingStrategy
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method remove was dept-contoller
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method remove was dept-contoller
+2019-1-3 17:48:11 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: removeUsingDELETE_1
+2019-1-3 17:48:11 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /dept.cn.enilu.guns.api.controller.system.DeptContoller.save.DefaultGenericTypeNamingStrategy
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /dept.cn.enilu.guns.api.controller.system.DeptContoller.save.DefaultGenericTypeNamingStrategy
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method save was dept-contoller
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method save was dept-contoller
+2019-1-3 17:48:11 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: saveUsingPOST_1
+2019-1-3 17:48:11 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /dict.cn.enilu.guns.api.controller.system.DictController.add.DefaultGenericTypeNamingStrategy
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /dict.cn.enilu.guns.api.controller.system.DictController.add.DefaultGenericTypeNamingStrategy
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method add was dict-controller
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method add was dict-controller
+2019-1-3 17:48:11 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /dict.cn.enilu.guns.api.controller.system.DictController.delete.DefaultGenericTypeNamingStrategy
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /dict.cn.enilu.guns.api.controller.system.DictController.delete.DefaultGenericTypeNamingStrategy
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method delete was dict-controller
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method delete was dict-controller
+2019-1-3 17:48:11 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /dict/list.cn.enilu.guns.api.controller.system.DictController.list.DefaultGenericTypeNamingStrategy
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /dict/list.cn.enilu.guns.api.controller.system.DictController.list.DefaultGenericTypeNamingStrategy
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was dict-controller
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was dict-controller
+2019-1-3 17:48:11 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: listUsingGET_2
+2019-1-3 17:48:11 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /dict.cn.enilu.guns.api.controller.system.DictController.update.DefaultGenericTypeNamingStrategy
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /dict.cn.enilu.guns.api.controller.system.DictController.update.DefaultGenericTypeNamingStrategy
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method update was dict-controller
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method update was dict-controller
+2019-1-3 17:48:11 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /log.cn.enilu.guns.api.controller.system.LogController.delLog.DefaultGenericTypeNamingStrategy
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /log.cn.enilu.guns.api.controller.system.LogController.delLog.DefaultGenericTypeNamingStrategy
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method delLog was log-controller
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method delLog was log-controller
+2019-1-3 17:48:11 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /log/list.cn.enilu.guns.api.controller.system.LogController.list.DefaultGenericTypeNamingStrategy
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /log/list.cn.enilu.guns.api.controller.system.LogController.list.DefaultGenericTypeNamingStrategy
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was log-controller
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was log-controller
+2019-1-3 17:48:11 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: listUsingGET_3
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was log-controller
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was log-controller
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was log-controller
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was log-controller
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was log-controller
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was log-controller
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was log-controller
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was log-controller
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was log-controller
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was log-controller
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was log-controller
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was log-controller
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was log-controller
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was log-controller
+2019-1-3 17:48:11 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /loginLog.cn.enilu.guns.api.controller.system.LoginLogController.delLog.DefaultGenericTypeNamingStrategy
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /loginLog.cn.enilu.guns.api.controller.system.LoginLogController.delLog.DefaultGenericTypeNamingStrategy
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method delLog was login-log-controller
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method delLog was login-log-controller
+2019-1-3 17:48:11 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: delLogUsingDELETE_1
+2019-1-3 17:48:11 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /loginLog/list.cn.enilu.guns.api.controller.system.LoginLogController.list.DefaultGenericTypeNamingStrategy
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /loginLog/list.cn.enilu.guns.api.controller.system.LoginLogController.list.DefaultGenericTypeNamingStrategy
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was login-log-controller
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was login-log-controller
+2019-1-3 17:48:11 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: listUsingGET_4
+2019-1-3 17:48:11 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /menu/list.cn.enilu.guns.api.controller.system.MenuController.list.DefaultGenericTypeNamingStrategy
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /menu/list.cn.enilu.guns.api.controller.system.MenuController.list.DefaultGenericTypeNamingStrategy
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was menu-controller
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was menu-controller
+2019-1-3 17:48:11 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: listUsingGET_5
+2019-1-3 17:48:11 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /menu/menuTreeListByRoleId.cn.enilu.guns.api.controller.system.MenuController.menuTreeListByRoleId.DefaultGenericTypeNamingStrategy
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /menu/menuTreeListByRoleId.cn.enilu.guns.api.controller.system.MenuController.menuTreeListByRoleId.DefaultGenericTypeNamingStrategy
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method menuTreeListByRoleId was menu-controller
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method menuTreeListByRoleId was menu-controller
+2019-1-3 17:48:11 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /menu.cn.enilu.guns.api.controller.system.MenuController.remove.DefaultGenericTypeNamingStrategy
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /menu.cn.enilu.guns.api.controller.system.MenuController.remove.DefaultGenericTypeNamingStrategy
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method remove was menu-controller
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method remove was menu-controller
+2019-1-3 17:48:11 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: removeUsingDELETE_2
+2019-1-3 17:48:11 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /menu.cn.enilu.guns.api.controller.system.MenuController.save.DefaultGenericTypeNamingStrategy
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /menu.cn.enilu.guns.api.controller.system.MenuController.save.DefaultGenericTypeNamingStrategy
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method save was menu-controller
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method save was menu-controller
+2019-1-3 17:48:11 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: saveUsingPOST_2
+2019-1-3 17:48:11 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /notice/list.cn.enilu.guns.api.controller.system.NoticeController.list.DefaultGenericTypeNamingStrategy
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /notice/list.cn.enilu.guns.api.controller.system.NoticeController.list.DefaultGenericTypeNamingStrategy
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was notice-controller
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was notice-controller
+2019-1-3 17:48:11 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: listUsingGET_6
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was notice-controller
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was notice-controller
+2019-1-3 17:48:11 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: listUsingHEAD_1
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was notice-controller
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was notice-controller
+2019-1-3 17:48:11 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: listUsingPOST_1
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was notice-controller
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was notice-controller
+2019-1-3 17:48:11 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: listUsingPUT_1
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was notice-controller
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was notice-controller
+2019-1-3 17:48:11 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: listUsingPATCH_1
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was notice-controller
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was notice-controller
+2019-1-3 17:48:11 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: listUsingDELETE_1
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was notice-controller
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was notice-controller
+2019-1-3 17:48:11 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: listUsingOPTIONS_1
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was notice-controller
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was notice-controller
+2019-1-3 17:48:11 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: listUsingTRACE_1
+2019-1-3 17:48:11 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /role/list.cn.enilu.guns.api.controller.system.RoleController.list.DefaultGenericTypeNamingStrategy
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /role/list.cn.enilu.guns.api.controller.system.RoleController.list.DefaultGenericTypeNamingStrategy
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was role-controller
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was role-controller
+2019-1-3 17:48:11 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: listUsingGET_7
+2019-1-3 17:48:11 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /role.cn.enilu.guns.api.controller.system.RoleController.remove.DefaultGenericTypeNamingStrategy
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /role.cn.enilu.guns.api.controller.system.RoleController.remove.DefaultGenericTypeNamingStrategy
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method remove was role-controller
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method remove was role-controller
+2019-1-3 17:48:11 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: removeUsingDELETE_3
+2019-1-3 17:48:11 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /role.cn.enilu.guns.api.controller.system.RoleController.save.DefaultGenericTypeNamingStrategy
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /role.cn.enilu.guns.api.controller.system.RoleController.save.DefaultGenericTypeNamingStrategy
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method save was role-controller
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method save was role-controller
+2019-1-3 17:48:11 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: saveUsingPOST_3
+2019-1-3 17:48:11 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /role/savePermisson.cn.enilu.guns.api.controller.system.RoleController.setAuthority.DefaultGenericTypeNamingStrategy
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /role/savePermisson.cn.enilu.guns.api.controller.system.RoleController.setAuthority.DefaultGenericTypeNamingStrategy
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method setAuthority was role-controller
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method setAuthority was role-controller
+2019-1-3 17:48:11 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /task.cn.enilu.guns.api.controller.system.TaskController.add.DefaultGenericTypeNamingStrategy
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /task.cn.enilu.guns.api.controller.system.TaskController.add.DefaultGenericTypeNamingStrategy
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method add was task-controller
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method add was task-controller
+2019-1-3 17:48:11 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: addUsingPOST_1
+2019-1-3 17:48:11 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /task.cn.enilu.guns.api.controller.system.TaskController.delete.DefaultGenericTypeNamingStrategy
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /task.cn.enilu.guns.api.controller.system.TaskController.delete.DefaultGenericTypeNamingStrategy
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method delete was task-controller
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method delete was task-controller
+2019-1-3 17:48:11 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: deleteUsingDELETE_1
+2019-1-3 17:48:11 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /task/disable/{id}.cn.enilu.guns.api.controller.system.TaskController.disable.DefaultGenericTypeNamingStrategy
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /task/disable/{id}.cn.enilu.guns.api.controller.system.TaskController.disable.DefaultGenericTypeNamingStrategy
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method disable was task-controller
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method disable was task-controller
+2019-1-3 17:48:11 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /task/enable/{id}.cn.enilu.guns.api.controller.system.TaskController.enable.DefaultGenericTypeNamingStrategy
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /task/enable/{id}.cn.enilu.guns.api.controller.system.TaskController.enable.DefaultGenericTypeNamingStrategy
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method enable was task-controller
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method enable was task-controller
+2019-1-3 17:48:11 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /task/list.cn.enilu.guns.api.controller.system.TaskController.list.DefaultGenericTypeNamingStrategy
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /task/list.cn.enilu.guns.api.controller.system.TaskController.list.DefaultGenericTypeNamingStrategy
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was task-controller
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was task-controller
+2019-1-3 17:48:11 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: listUsingGET_8
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was task-controller
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was task-controller
+2019-1-3 17:48:11 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: listUsingHEAD_2
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was task-controller
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was task-controller
+2019-1-3 17:48:11 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: listUsingPOST_2
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was task-controller
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was task-controller
+2019-1-3 17:48:11 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: listUsingPUT_2
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was task-controller
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was task-controller
+2019-1-3 17:48:11 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: listUsingPATCH_2
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was task-controller
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was task-controller
+2019-1-3 17:48:11 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: listUsingDELETE_2
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was task-controller
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was task-controller
+2019-1-3 17:48:11 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: listUsingOPTIONS_2
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was task-controller
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was task-controller
+2019-1-3 17:48:11 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: listUsingTRACE_2
+2019-1-3 17:48:11 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /task/logList.cn.enilu.guns.api.controller.system.TaskController.logList.DefaultGenericTypeNamingStrategy
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /task/logList.cn.enilu.guns.api.controller.system.TaskController.logList.DefaultGenericTypeNamingStrategy
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method logList was task-controller
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method logList was task-controller
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method logList was task-controller
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method logList was task-controller
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method logList was task-controller
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method logList was task-controller
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method logList was task-controller
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method logList was task-controller
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method logList was task-controller
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method logList was task-controller
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method logList was task-controller
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method logList was task-controller
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method logList was task-controller
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method logList was task-controller
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method logList was task-controller
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method logList was task-controller
+2019-1-3 17:48:11 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /user/list.cn.enilu.guns.api.controller.system.UserController.list.DefaultGenericTypeNamingStrategy
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /user/list.cn.enilu.guns.api.controller.system.UserController.list.DefaultGenericTypeNamingStrategy
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was user-controller
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was user-controller
+2019-1-3 17:48:11 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: listUsingGET_9
+2019-1-3 17:48:11 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /user.cn.enilu.guns.api.controller.system.UserController.remove.DefaultGenericTypeNamingStrategy
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /user.cn.enilu.guns.api.controller.system.UserController.remove.DefaultGenericTypeNamingStrategy
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method remove was user-controller
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method remove was user-controller
+2019-1-3 17:48:11 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: removeUsingDELETE_4
+2019-1-3 17:48:11 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-1-3 17:48:11 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /user.cn.enilu.guns.api.controller.system.UserController.save.DefaultGenericTypeNamingStrategy
+2019-1-3 17:48:11 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /user.cn.enilu.guns.api.controller.system.UserController.save.DefaultGenericTypeNamingStrategy
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method save was user-controller
+2019-1-3 17:48:11 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method save was user-controller
+2019-1-3 17:48:11 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: saveUsingPOST_4
+2019-1-3 17:48:11 [main] INFO [Http11NioProtocol]:179 Initializing ProtocolHandler ["http-nio-8082"]
+2019-1-3 17:48:11 [main] INFO [Http11NioProtocol]:179 Starting ProtocolHandler [http-nio-8082]
+2019-1-3 17:48:11 [main] INFO [NioSelectorPool]:179 Using a shared selector for servlet write/read
+2019-1-3 17:48:11 [main] INFO [TomcatEmbeddedServletContainer]:192 Tomcat started on port(s): 8082 (http)
+2019-1-3 17:48:11 [main] INFO [CacheListener]:35 ...................cache listener......................
+2019-1-3 17:48:11 [main] INFO [CacheListener]:44 ...................cache listener end......................
+2019-1-3 17:48:11 [Thread-9] INFO [ConfigCacheImpl]:68 reset config cache
+2019-1-3 17:48:11 [main] INFO [ApiApplication]:57 Started ApiApplication in 12.694 seconds (JVM running for 14.859)
+2019-1-3 17:48:11 [Thread-9] INFO [QueryTranslatorFactoryInitiator]:47 HHH000397: Using ASTQueryTranslatorFactory
+2019-1-3 17:48:53 [http-nio-8082-exec-1] INFO [[/]]:179 Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-1-3 17:48:53 [http-nio-8082-exec-1] INFO [DispatcherServlet]:489 FrameworkServlet 'dispatcherServlet': initialization started
+2019-1-3 17:48:53 [http-nio-8082-exec-1] INFO [DispatcherServlet]:508 FrameworkServlet 'dispatcherServlet': initialization completed in 38 ms
+2019-1-3 18:09:11 [http-nio-8082-exec-10] INFO [AccountController]:59 用户登录:admin,密码:admin
+2019-1-3 18:09:11 [http-nio-8082-exec-10] INFO [AccountController]:73 token:f2f9e7e8-8826-4904-93fa-ec6aa809b809
+2019-1-3 18:09:12 [http-nio-8082-exec-3] INFO [SecurityInterceptor]:31 requestURL:http://127.0.0.1:8082/notice/list,method:OPTIONS
+2019-1-3 18:09:12 [http-nio-8082-exec-3] DEBUG [SecurityInterceptor]:58 done requestURL:http://127.0.0.1:8082/notice/list
+2019-1-3 18:09:12 [http-nio-8082-exec-4] INFO [SecurityInterceptor]:31 requestURL:http://127.0.0.1:8082/notice/list,method:GET
+2019-1-3 18:09:12 [http-nio-8082-exec-4] DEBUG [SecurityInterceptor]:39 token:f2f9e7e8-8826-4904-93fa-ec6aa809b809
+2019-1-3 18:09:12 [http-nio-8082-exec-4] DEBUG [SecurityInterceptor]:58 done requestURL:http://127.0.0.1:8082/notice/list
+2019-1-3 18:09:22 [http-nio-8082-exec-6] INFO [SecurityInterceptor]:31 requestURL:http://127.0.0.1:8082/dict/list,method:OPTIONS
+2019-1-3 18:09:22 [http-nio-8082-exec-6] DEBUG [SecurityInterceptor]:58 done requestURL:http://127.0.0.1:8082/dict/list
+2019-1-3 18:09:22 [http-nio-8082-exec-7] INFO [SecurityInterceptor]:31 requestURL:http://127.0.0.1:8082/dict/list,method:GET
+2019-1-3 18:09:22 [http-nio-8082-exec-7] DEBUG [SecurityInterceptor]:39 token:f2f9e7e8-8826-4904-93fa-ec6aa809b809
+2019-1-3 18:09:22 [http-nio-8082-exec-7] DEBUG [SecurityInterceptor]:58 done requestURL:http://127.0.0.1:8082/dict/list
+2019-1-3 18:09:28 [http-nio-8082-exec-9] INFO [SecurityInterceptor]:31 requestURL:http://127.0.0.1:8082/notice/list,method:GET
+2019-1-3 18:09:28 [http-nio-8082-exec-9] DEBUG [SecurityInterceptor]:39 token:f2f9e7e8-8826-4904-93fa-ec6aa809b809
+2019-1-3 18:09:28 [http-nio-8082-exec-9] DEBUG [SecurityInterceptor]:58 done requestURL:http://127.0.0.1:8082/notice/list
+2019-1-3 18:09:32 [http-nio-8082-exec-1] INFO [SecurityInterceptor]:31 requestURL:http://127.0.0.1:8082/dict/list,method:GET
+2019-1-3 18:09:32 [http-nio-8082-exec-1] DEBUG [SecurityInterceptor]:39 token:f2f9e7e8-8826-4904-93fa-ec6aa809b809
+2019-1-3 18:09:32 [http-nio-8082-exec-1] DEBUG [SecurityInterceptor]:58 done requestURL:http://127.0.0.1:8082/dict/list
+2019-1-3 18:09:35 [http-nio-8082-exec-2] INFO [SecurityInterceptor]:31 requestURL:http://127.0.0.1:8082/loginLog/list,method:OPTIONS
+2019-1-3 18:09:35 [http-nio-8082-exec-2] DEBUG [SecurityInterceptor]:58 done requestURL:http://127.0.0.1:8082/loginLog/list
+2019-1-3 18:09:35 [http-nio-8082-exec-3] INFO [SecurityInterceptor]:31 requestURL:http://127.0.0.1:8082/loginLog/list,method:GET
+2019-1-3 18:09:35 [http-nio-8082-exec-3] DEBUG [SecurityInterceptor]:39 token:f2f9e7e8-8826-4904-93fa-ec6aa809b809
+2019-1-3 18:09:35 [http-nio-8082-exec-3] DEBUG [SecurityInterceptor]:58 done requestURL:http://127.0.0.1:8082/loginLog/list
+2019-1-3 18:09:40 [http-nio-8082-exec-5] INFO [SecurityInterceptor]:31 requestURL:http://127.0.0.1:8082/log/list,method:OPTIONS
+2019-1-3 18:09:40 [http-nio-8082-exec-5] DEBUG [SecurityInterceptor]:58 done requestURL:http://127.0.0.1:8082/log/list
+2019-1-3 18:09:40 [http-nio-8082-exec-6] INFO [SecurityInterceptor]:31 requestURL:http://127.0.0.1:8082/log/list,method:GET
+2019-1-3 18:09:40 [http-nio-8082-exec-6] DEBUG [SecurityInterceptor]:39 token:f2f9e7e8-8826-4904-93fa-ec6aa809b809
+2019-1-3 18:09:40 [http-nio-8082-exec-6] DEBUG [SecurityInterceptor]:58 done requestURL:http://127.0.0.1:8082/log/list
+2019-1-3 18:10:08 [http-nio-8082-exec-8] INFO [SecurityInterceptor]:31 requestURL:http://127.0.0.1:8082/cfg/list,method:OPTIONS
+2019-1-3 18:10:08 [http-nio-8082-exec-8] DEBUG [SecurityInterceptor]:58 done requestURL:http://127.0.0.1:8082/cfg/list
+2019-1-3 18:10:08 [http-nio-8082-exec-9] INFO [SecurityInterceptor]:31 requestURL:http://127.0.0.1:8082/cfg/list,method:GET
+2019-1-3 18:10:08 [http-nio-8082-exec-9] DEBUG [SecurityInterceptor]:39 token:f2f9e7e8-8826-4904-93fa-ec6aa809b809
+2019-1-3 18:10:08 [http-nio-8082-exec-9] DEBUG [SecurityInterceptor]:58 done requestURL:http://127.0.0.1:8082/cfg/list
+2019-1-3 18:10:16 [http-nio-8082-exec-1] INFO [SecurityInterceptor]:31 requestURL:http://127.0.0.1:8082/log/list,method:GET
+2019-1-3 18:10:16 [http-nio-8082-exec-1] DEBUG [SecurityInterceptor]:39 token:f2f9e7e8-8826-4904-93fa-ec6aa809b809
+2019-1-3 18:10:16 [http-nio-8082-exec-1] DEBUG [SecurityInterceptor]:58 done requestURL:http://127.0.0.1:8082/log/list
+2019-1-3 18:10:20 [http-nio-8082-exec-3] INFO [SecurityInterceptor]:31 requestURL:http://127.0.0.1:8082/loginLog/list,method:GET
+2019-1-3 18:10:20 [http-nio-8082-exec-3] DEBUG [SecurityInterceptor]:39 token:f2f9e7e8-8826-4904-93fa-ec6aa809b809
+2019-1-3 18:10:20 [http-nio-8082-exec-3] DEBUG [SecurityInterceptor]:58 done requestURL:http://127.0.0.1:8082/loginLog/list
+2019-1-3 18:10:21 [http-nio-8082-exec-4] INFO [SecurityInterceptor]:31 requestURL:http://127.0.0.1:8082/dict/list,method:GET
+2019-1-3 18:10:21 [http-nio-8082-exec-4] DEBUG [SecurityInterceptor]:39 token:f2f9e7e8-8826-4904-93fa-ec6aa809b809
+2019-1-3 18:10:21 [http-nio-8082-exec-4] DEBUG [SecurityInterceptor]:58 done requestURL:http://127.0.0.1:8082/dict/list
+2019-1-3 18:10:25 [http-nio-8082-exec-5] INFO [SecurityInterceptor]:31 requestURL:http://127.0.0.1:8082/menu/list,method:OPTIONS
+2019-1-3 18:10:25 [http-nio-8082-exec-5] DEBUG [SecurityInterceptor]:58 done requestURL:http://127.0.0.1:8082/menu/list
+2019-1-3 18:10:25 [http-nio-8082-exec-6] INFO [SecurityInterceptor]:31 requestURL:http://127.0.0.1:8082/menu/list,method:GET
+2019-1-3 18:10:25 [http-nio-8082-exec-6] DEBUG [SecurityInterceptor]:39 token:f2f9e7e8-8826-4904-93fa-ec6aa809b809
+2019-1-3 18:10:25 [http-nio-8082-exec-6] DEBUG [SecurityInterceptor]:58 done requestURL:http://127.0.0.1:8082/menu/list
+2019-1-3 18:10:27 [http-nio-8082-exec-8] INFO [SecurityInterceptor]:31 requestURL:http://127.0.0.1:8082/dict/list,method:GET
+2019-1-3 18:10:27 [http-nio-8082-exec-8] DEBUG [SecurityInterceptor]:39 token:f2f9e7e8-8826-4904-93fa-ec6aa809b809
+2019-1-3 18:10:27 [http-nio-8082-exec-8] DEBUG [SecurityInterceptor]:58 done requestURL:http://127.0.0.1:8082/dict/list
+2019-1-3 18:10:28 [http-nio-8082-exec-9] INFO [SecurityInterceptor]:31 requestURL:http://127.0.0.1:8082/loginLog/list,method:GET
+2019-1-3 18:10:28 [http-nio-8082-exec-9] DEBUG [SecurityInterceptor]:39 token:f2f9e7e8-8826-4904-93fa-ec6aa809b809
+2019-1-3 18:10:28 [http-nio-8082-exec-9] DEBUG [SecurityInterceptor]:58 done requestURL:http://127.0.0.1:8082/loginLog/list
+2019-1-3 18:10:31 [http-nio-8082-exec-10] INFO [SecurityInterceptor]:31 requestURL:http://127.0.0.1:8082/log/list,method:GET
+2019-1-3 18:10:31 [http-nio-8082-exec-10] DEBUG [SecurityInterceptor]:39 token:f2f9e7e8-8826-4904-93fa-ec6aa809b809
+2019-1-3 18:10:31 [http-nio-8082-exec-10] DEBUG [SecurityInterceptor]:58 done requestURL:http://127.0.0.1:8082/log/list
+2019-1-3 18:10:32 [http-nio-8082-exec-2] INFO [SecurityInterceptor]:31 requestURL:http://127.0.0.1:8082/cfg/list,method:GET
+2019-1-3 18:10:32 [http-nio-8082-exec-2] DEBUG [SecurityInterceptor]:39 token:f2f9e7e8-8826-4904-93fa-ec6aa809b809
+2019-1-3 18:10:32 [http-nio-8082-exec-2] DEBUG [SecurityInterceptor]:58 done requestURL:http://127.0.0.1:8082/cfg/list
+2019-1-3 18:10:34 [http-nio-8082-exec-3] INFO [SecurityInterceptor]:31 requestURL:http://127.0.0.1:8082/log/list,method:GET
+2019-1-3 18:10:34 [http-nio-8082-exec-3] DEBUG [SecurityInterceptor]:39 token:f2f9e7e8-8826-4904-93fa-ec6aa809b809
+2019-1-3 18:10:34 [http-nio-8082-exec-3] DEBUG [SecurityInterceptor]:58 done requestURL:http://127.0.0.1:8082/log/list
+2019-1-3 18:10:35 [http-nio-8082-exec-4] INFO [SecurityInterceptor]:31 requestURL:http://127.0.0.1:8082/menu/list,method:GET
+2019-1-3 18:10:35 [http-nio-8082-exec-4] DEBUG [SecurityInterceptor]:39 token:f2f9e7e8-8826-4904-93fa-ec6aa809b809
+2019-1-3 18:10:35 [http-nio-8082-exec-4] DEBUG [SecurityInterceptor]:58 done requestURL:http://127.0.0.1:8082/menu/list
+2019-1-3 18:11:04 [http-nio-8082-exec-6] INFO [SecurityInterceptor]:31 requestURL:http://127.0.0.1:8082/dept/list,method:OPTIONS
+2019-1-3 18:11:04 [http-nio-8082-exec-6] DEBUG [SecurityInterceptor]:58 done requestURL:http://127.0.0.1:8082/dept/list
+2019-1-3 18:11:04 [http-nio-8082-exec-7] INFO [SecurityInterceptor]:31 requestURL:http://127.0.0.1:8082/dept/list,method:GET
+2019-1-3 18:11:04 [http-nio-8082-exec-7] DEBUG [SecurityInterceptor]:39 token:f2f9e7e8-8826-4904-93fa-ec6aa809b809
+2019-1-3 18:11:04 [http-nio-8082-exec-7] DEBUG [SecurityInterceptor]:58 done requestURL:http://127.0.0.1:8082/dept/list
+2019-1-3 18:11:07 [http-nio-8082-exec-9] INFO [SecurityInterceptor]:31 requestURL:http://127.0.0.1:8082/user/list,method:OPTIONS
+2019-1-3 18:11:07 [http-nio-8082-exec-10] INFO [SecurityInterceptor]:31 requestURL:http://127.0.0.1:8082/dept/list,method:GET
+2019-1-3 18:11:07 [http-nio-8082-exec-10] DEBUG [SecurityInterceptor]:39 token:f2f9e7e8-8826-4904-93fa-ec6aa809b809
+2019-1-3 18:11:07 [http-nio-8082-exec-9] DEBUG [SecurityInterceptor]:58 done requestURL:http://127.0.0.1:8082/user/list
+2019-1-3 18:11:07 [http-nio-8082-exec-10] DEBUG [SecurityInterceptor]:58 done requestURL:http://127.0.0.1:8082/dept/list
+2019-1-3 18:11:07 [http-nio-8082-exec-1] INFO [SecurityInterceptor]:31 requestURL:http://127.0.0.1:8082/user/list,method:GET
+2019-1-3 18:11:07 [http-nio-8082-exec-1] DEBUG [SecurityInterceptor]:39 token:f2f9e7e8-8826-4904-93fa-ec6aa809b809
+2019-1-3 18:11:07 [http-nio-8082-exec-1] DEBUG [SecurityInterceptor]:58 done requestURL:http://127.0.0.1:8082/user/list
+2019-1-3 18:11:08 [http-nio-8082-exec-2] INFO [SecurityInterceptor]:31 requestURL:http://127.0.0.1:8082/role/list,method:OPTIONS
+2019-1-3 18:11:08 [http-nio-8082-exec-3] INFO [SecurityInterceptor]:31 requestURL:http://127.0.0.1:8082/dept/list,method:GET
+2019-1-3 18:11:08 [http-nio-8082-exec-2] DEBUG [SecurityInterceptor]:58 done requestURL:http://127.0.0.1:8082/role/list
+2019-1-3 18:11:08 [http-nio-8082-exec-3] DEBUG [SecurityInterceptor]:39 token:f2f9e7e8-8826-4904-93fa-ec6aa809b809
+2019-1-3 18:11:08 [http-nio-8082-exec-4] INFO [SecurityInterceptor]:31 requestURL:http://127.0.0.1:8082/role/list,method:GET
+2019-1-3 18:11:08 [http-nio-8082-exec-3] DEBUG [SecurityInterceptor]:58 done requestURL:http://127.0.0.1:8082/dept/list
+2019-1-3 18:11:08 [http-nio-8082-exec-4] DEBUG [SecurityInterceptor]:39 token:f2f9e7e8-8826-4904-93fa-ec6aa809b809
+2019-1-3 18:11:08 [http-nio-8082-exec-4] INFO [RoleController]:44 role:null
+2019-1-3 18:11:08 [http-nio-8082-exec-4] DEBUG [SecurityInterceptor]:58 done requestURL:http://127.0.0.1:8082/role/list
+2019-1-3 18:11:09 [http-nio-8082-exec-5] INFO [SecurityInterceptor]:31 requestURL:http://127.0.0.1:8082/task/list,method:OPTIONS
+2019-1-3 18:11:09 [http-nio-8082-exec-5] DEBUG [SecurityInterceptor]:58 done requestURL:http://127.0.0.1:8082/task/list
+2019-1-3 18:11:09 [http-nio-8082-exec-6] INFO [SecurityInterceptor]:31 requestURL:http://127.0.0.1:8082/task/list,method:GET
+2019-1-3 18:11:09 [http-nio-8082-exec-6] DEBUG [SecurityInterceptor]:39 token:f2f9e7e8-8826-4904-93fa-ec6aa809b809
+2019-1-3 18:11:09 [http-nio-8082-exec-6] DEBUG [SecurityInterceptor]:58 done requestURL:http://127.0.0.1:8082/task/list
+2019-1-3 18:11:11 [http-nio-8082-exec-7] INFO [SecurityInterceptor]:31 requestURL:http://127.0.0.1:8082/dept/list,method:GET
+2019-1-3 18:11:11 [http-nio-8082-exec-8] INFO [SecurityInterceptor]:31 requestURL:http://127.0.0.1:8082/role/list,method:GET
+2019-1-3 18:11:11 [http-nio-8082-exec-7] DEBUG [SecurityInterceptor]:39 token:f2f9e7e8-8826-4904-93fa-ec6aa809b809
+2019-1-3 18:11:11 [http-nio-8082-exec-8] DEBUG [SecurityInterceptor]:39 token:f2f9e7e8-8826-4904-93fa-ec6aa809b809
+2019-1-3 18:11:11 [http-nio-8082-exec-8] INFO [RoleController]:44 role:null
+2019-1-3 18:11:11 [http-nio-8082-exec-7] DEBUG [SecurityInterceptor]:58 done requestURL:http://127.0.0.1:8082/dept/list
+2019-1-3 18:11:11 [http-nio-8082-exec-8] DEBUG [SecurityInterceptor]:58 done requestURL:http://127.0.0.1:8082/role/list
+2019-1-3 18:11:12 [http-nio-8082-exec-1] INFO [SecurityInterceptor]:31 requestURL:http://127.0.0.1:8082/dept/list,method:GET
+2019-1-3 18:11:12 [http-nio-8082-exec-1] DEBUG [SecurityInterceptor]:39 token:f2f9e7e8-8826-4904-93fa-ec6aa809b809
+2019-1-3 18:11:12 [http-nio-8082-exec-2] INFO [SecurityInterceptor]:31 requestURL:http://127.0.0.1:8082/user/list,method:GET
+2019-1-3 18:11:12 [http-nio-8082-exec-2] DEBUG [SecurityInterceptor]:39 token:f2f9e7e8-8826-4904-93fa-ec6aa809b809
+2019-1-3 18:11:12 [http-nio-8082-exec-1] DEBUG [SecurityInterceptor]:58 done requestURL:http://127.0.0.1:8082/dept/list
+2019-1-3 18:11:12 [http-nio-8082-exec-2] DEBUG [SecurityInterceptor]:58 done requestURL:http://127.0.0.1:8082/user/list
+2019-1-3 18:11:13 [http-nio-8082-exec-3] INFO [SecurityInterceptor]:31 requestURL:http://127.0.0.1:8082/dept/list,method:GET
+2019-1-3 18:11:13 [http-nio-8082-exec-3] DEBUG [SecurityInterceptor]:39 token:f2f9e7e8-8826-4904-93fa-ec6aa809b809
+2019-1-3 18:11:13 [http-nio-8082-exec-3] DEBUG [SecurityInterceptor]:58 done requestURL:http://127.0.0.1:8082/dept/list
+2019-1-3 18:11:20 [http-nio-8082-exec-6] INFO [SecurityInterceptor]:31 requestURL:http://127.0.0.1:8082/role/list,method:GET
+2019-1-3 18:11:20 [http-nio-8082-exec-7] INFO [SecurityInterceptor]:31 requestURL:http://127.0.0.1:8082/dept/list,method:GET
+2019-1-3 18:11:20 [http-nio-8082-exec-6] DEBUG [SecurityInterceptor]:39 token:f2f9e7e8-8826-4904-93fa-ec6aa809b809
+2019-1-3 18:11:20 [http-nio-8082-exec-7] DEBUG [SecurityInterceptor]:39 token:f2f9e7e8-8826-4904-93fa-ec6aa809b809
+2019-1-3 18:11:20 [http-nio-8082-exec-6] INFO [RoleController]:44 role:null
+2019-1-3 18:11:20 [http-nio-8082-exec-7] DEBUG [SecurityInterceptor]:58 done requestURL:http://127.0.0.1:8082/dept/list
+2019-1-3 18:11:20 [http-nio-8082-exec-6] DEBUG [SecurityInterceptor]:58 done requestURL:http://127.0.0.1:8082/role/list
+2019-1-3 18:11:21 [http-nio-8082-exec-8] INFO [SecurityInterceptor]:31 requestURL:http://127.0.0.1:8082/task/list,method:GET
+2019-1-3 18:11:21 [http-nio-8082-exec-8] DEBUG [SecurityInterceptor]:39 token:f2f9e7e8-8826-4904-93fa-ec6aa809b809
+2019-1-3 18:11:21 [http-nio-8082-exec-8] DEBUG [SecurityInterceptor]:58 done requestURL:http://127.0.0.1:8082/task/list
+2019-1-3 18:11:24 [http-nio-8082-exec-1] INFO [SecurityInterceptor]:31 requestURL:http://127.0.0.1:8082/menu/list,method:GET
+2019-1-3 18:11:24 [http-nio-8082-exec-1] DEBUG [SecurityInterceptor]:39 token:f2f9e7e8-8826-4904-93fa-ec6aa809b809
+2019-1-3 18:11:24 [http-nio-8082-exec-1] DEBUG [SecurityInterceptor]:58 done requestURL:http://127.0.0.1:8082/menu/list
+2019-1-3 18:13:29 [http-nio-8082-exec-5] INFO [SecurityInterceptor]:31 requestURL:http://127.0.0.1:8082/menu/list,method:GET
+2019-1-3 18:13:29 [http-nio-8082-exec-5] DEBUG [SecurityInterceptor]:39 token:f2f9e7e8-8826-4904-93fa-ec6aa809b809
+2019-1-3 18:13:29 [http-nio-8082-exec-5] DEBUG [SecurityInterceptor]:58 done requestURL:http://127.0.0.1:8082/menu/list
+2019-1-3 18:13:55 [http-nio-8082-exec-6] INFO [SecurityInterceptor]:31 requestURL:http://127.0.0.1:8082/menu,method:OPTIONS
+2019-1-3 18:13:55 [http-nio-8082-exec-6] DEBUG [SecurityInterceptor]:58 done requestURL:http://127.0.0.1:8082/menu
+2019-1-3 18:13:55 [http-nio-8082-exec-8] INFO [SecurityInterceptor]:31 requestURL:http://127.0.0.1:8082/menu,method:POST
+2019-1-3 18:13:55 [http-nio-8082-exec-8] DEBUG [SecurityInterceptor]:39 token:f2f9e7e8-8826-4904-93fa-ec6aa809b809
+2019-1-3 18:13:55 [http-nio-8082-exec-8] INFO [MenuController]:57 {"code":"200","ismenu":1,"name":"信贷管理","num":1,"pcode":"","status":1,"url":"#"}
+2019-1-3 18:13:55 [http-nio-8082-exec-8] DEBUG [SecurityInterceptor]:58 done requestURL:http://127.0.0.1:8082/menu
+2019-1-3 18:13:55 [http-nio-8082-exec-10] INFO [SecurityInterceptor]:31 requestURL:http://127.0.0.1:8082/menu/list,method:GET
+2019-1-3 18:13:55 [http-nio-8082-exec-10] DEBUG [SecurityInterceptor]:39 token:f2f9e7e8-8826-4904-93fa-ec6aa809b809
+2019-1-3 18:13:55 [http-nio-8082-exec-10] DEBUG [SecurityInterceptor]:58 done requestURL:http://127.0.0.1:8082/menu/list
+2019-1-3 18:14:04 [http-nio-8082-exec-2] INFO [SecurityInterceptor]:31 requestURL:http://127.0.0.1:8082/menu/list,method:GET
+2019-1-3 18:14:04 [http-nio-8082-exec-2] DEBUG [SecurityInterceptor]:39 token:f2f9e7e8-8826-4904-93fa-ec6aa809b809
+2019-1-3 18:14:04 [http-nio-8082-exec-2] DEBUG [SecurityInterceptor]:58 done requestURL:http://127.0.0.1:8082/menu/list
